@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+*.o
+*.d
+*.asm
+*.sym
+fs.img
+kernel/kernel
+mkfs/mkfs
+.gdbinit
+EOF
